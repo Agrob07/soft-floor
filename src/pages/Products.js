@@ -1,11 +1,14 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useParams } from "react-router-dom";
+import ProductsList from "../Layouts/ProductsList";
+import SideBar from "../Layouts/SideBar";
 
 const Products = () => {
+  const { id } = useParams();
   return (
     <div>
-      Products
-      <Outlet />
+      <SideBar />
+      {id ? <Outlet /> : <ProductsList />}
     </div>
   );
 };
