@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import { useForm } from "react-hook-form";
 
 function Contact() {
@@ -11,12 +10,11 @@ function Contact() {
     console.log(data);
   };
 
-  function emailValidation(data) {
-    const regex =
-      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-       regex.test(data.email);
-       
-  }
+  // function emailValidation(data) {
+  //   const regex =
+  //     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+  //   regex.test(data.email);
+  // }
 
   return (
     <div className="container mx-auto py-10">
@@ -88,7 +86,6 @@ function Contact() {
         <div className="xl:w-3/5 lg:w-3/5 bg-gray-200  py-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
           <form
             onSubmit={handleSubmit(onSubmit)}
-
             id="contact"
             className="bg-white py-5 px-8 rounded-tr rounded-br"
           >

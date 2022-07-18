@@ -21,9 +21,9 @@ const Landing = () => {
           </div>
           <div className="flex justify-center items-center flex-col xl:w-2/5 md:px-6 sm:w-3/4 md:w-2/4">
             <div className="">
-              <h1 className="xl:text-4xl text-3xl font-semibold leading-9 text-gray-800">
+              <h2 className="xl:text-4xl text-3xl font-semibold leading-9 text-gray-800">
                 Գեղեցիկ, կրեատիվ, եզակի!
-              </h1>
+              </h2>
             </div>
             <div className="mt-4">
               <p className="xl:text-xl text-base leading-7 text-center text-gray-600">
@@ -162,10 +162,7 @@ const Landing = () => {
       >
         <div className="md:flex items-center justify-between w-full bg-gray-50">
           <div className="xl:w-1/3 md:w-1/2 w-full">
-            <h1
-              role="heading"
-              className="focus:outline-none md:w-60 font-semibold md:text-4xl text-4xl leading-tight text-gray-800"
-            >
+            <h1 className="focus:outline-none md:w-60 font-semibold md:text-4xl text-4xl leading-tight text-gray-800">
               Հարմարավետություն
             </h1>
             <p

@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import DropDown from "./Dropdown";
 import { paletColors, paletWidth, paletSize } from "../data";
 export default function SideBar() {
-  const [show, setShow] = useState(null);
   return (
     <>
       <hr className=" border-gray-200  dark:border-gray-700 " />

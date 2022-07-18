@@ -17,7 +17,7 @@ export default function Faq() {
         <div className="relative py-16 bg-gray-700 flex justify-center items-center">
           <div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-10 text-white">
-            Ինչպե՞ս կարող ենք օգնել ձեզ:
+              Ինչպե՞ս կարող ենք օգնել ձեզ:
             </h1>
             <div className="bg-gray-800 rounded relative mt-6 lg:mt-14 py-4 pl-4 flex items-center w-full">
               <div>
@@ -53,7 +53,7 @@ export default function Faq() {
           >
             <div role="listitem" className="focus:outline-none">
               <Link
-                to="javascript:void(0)"
+                to="/"
                 className="bg-white focus:outline-none shadow-md flex items-center p-4 lg:p-8 cursor-pointer"
               >
                 <div className="flex">
@@ -89,7 +89,7 @@ export default function Faq() {
             </div>
             <div role="listitem" className="focus:outline-none">
               <Link
-                to="javascript:void(0)"
+                to="/"
                 className="bg-white focus:outline-none shadow-md flex items-center p-4 lg:p-8 cursor-pointer"
               >
                 <div className="flex">
@@ -127,7 +127,7 @@ export default function Faq() {
             </div>
             <div role="listitem" className="focus:outline-none">
               <Link
-                to="javascript:void(0)"
+                to="/"
                 className="bg-white focus:outline-none shadow-md flex items-center p-4 lg:p-8 cursor-pointer"
               >
                 <div className="flex">
@@ -170,7 +170,7 @@ export default function Faq() {
             </div>
             <div role="listitem" className="focus:outline-none">
               <Link
-                to="javascript:void(0)"
+                to="/"
                 className="bg-white focus:outline-none shadow-md flex items-center p-4 lg:p-8 cursor-pointer"
               >
                 <div className="flex">
@@ -205,7 +205,7 @@ export default function Faq() {
             </div>
             <div role="listitem" className="focus:outline-none">
               <Link
-                to="javascript:void(0)"
+                to="/"
                 className="bg-white focus:outline-none shadow-md flex items-center p-4 lg:p-8 cursor-pointer"
               >
                 <div className="flex">
@@ -243,7 +243,7 @@ export default function Faq() {
             </div>
             <div role="listitem" className="focus:outline-none">
               <Link
-                to="javascript:void(0)"
+                to="/"
                 className="bg-white focus:outline-none shadow-md flex items-center p-4 lg:p-8 cursor-pointer"
               >
                 <div className="flex">
@@ -282,7 +282,7 @@ export default function Faq() {
           <div className="mt-9 md:mt-11 lg:mt-16">
             <div className="text-center">
               <h1 className="text-3xl font-medium leading-loose text-gray-800">
-              Պատասխան չե՞ք գտել։
+                Պատասխան չե՞ք գտել։
               </h1>
               <p className="mx-4 md:mx-0 mb-4 text-base leading-none text-gray-600 mt-4">
                 Our team is just an email away and ready to answer your
@@ -299,7 +299,7 @@ export default function Faq() {
                 className="mt-4 md:mt-6 py-3 px-6 bg-indigo-800 hover:bg-indigo-700 rounded text-white text-center font-medium text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800"
                 onClick={(e) => navigateToContacts(e)}
               >
-               Կապ
+                Կապ
               </button>
             </div>
           </div>
